@@ -1,0 +1,69 @@
+body{
+    background-color: royalblue;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#mulai{
+    text-align: center;
+}
+
+#text{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+#image{
+    text-align: center;
+}
+
+.hasil{
+    display: inline-flex;
+    font-family: Arial;
+    font-size: 16px;
+    background-color: black;
+}
+
+#menang{
+    padding-inline: 204px;
+}
+
+#seri{
+    padding-inline: 204px;
+}
+
+#kalah{
+    padding-inline: 204px;
+}
+
+.reset{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-card{
+    display: inline-flex;
+    padding-inline: 30px;
+    padding-top: 30px;
+}
+
+.batu{
+    padding-inline: 100px;
+}
+
+.kertas{
+    padding-inline: 100px;
+}
+
+.gunting{
+    padding-inline: 80px;
+}

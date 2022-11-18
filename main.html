@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas Kecil ARC day 2</title>
+  </head>
+  <body>
+    <h1>Permainan Gunting, Batu, Kertas</h1>
+    <div class="hasil">
+      <div id="menang">Skor pemain: 0</div>
+      <div id="seri">Seri: 0</div>
+      <div id="kalah">Skor komputer: 0</div>
+    </div>
+    <div class="reset">
+      <button onclick="reset()">Reset Skor</button>
+    </div>
+    <div id="image"><img src="putih.png" alt="" height="270" width="270"></div>
+    <div id="text"></div>
+    <div class="container">
+      <div class="button-card">
+        <div class="batu">
+          <button value="Batu" onclick="play(this.value)"><img src="batu.png" alt="" height="270" width="270"></button>
+        </div>
+        <div class="gunting">
+          <button value="Gunting" onclick="play(this.value)"><img src="gunting.jpg" alt="" height="270" width="270"></button>
+        </div>
+        <div class="kertas">
+          <button value="Kertas" onclick="play(this.value)"><img src="kertas.png" alt="" height="270" width="270"></button>
+        </div>
+      </div>
+      <br />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
